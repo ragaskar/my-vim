@@ -14,6 +14,9 @@ autocmd vimenter * ++nested colorscheme gruvbox
 "file tree browser - backslash
 map \ :NERDTreeToggle<CR>
 
+" File tree browser showing current file - pipe (shift-backslash)
+map \| :NERDTreeFind<CR>
+
 "map ctrl-p to fzf (fuzzy file finding)
 nmap <C-P> :FZF<CR>
 
