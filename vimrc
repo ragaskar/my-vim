@@ -1,10 +1,19 @@
 call plug#begin('~/.vim/plugged')
 
+"basic behavior.
 Plug 'tpope/vim-sensible'
+
+"color theme
 Plug 'morhetz/gruvbox'
+
+"filetree
 Plug 'preservim/nerdtree'
+
+"fuzzy find
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
+" git blame
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
