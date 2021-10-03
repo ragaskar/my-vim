@@ -31,3 +31,7 @@ map <leader>g :Git blame<CR>
 
 " Split screen
 map <leader>v :vsp<CR>
+
+"turn off bell
+set belloff=all
+
