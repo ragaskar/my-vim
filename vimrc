@@ -47,3 +47,6 @@ map <leader>v :vsp<CR>
 "turn off bell
 set belloff=all
 
+"handle vim swap files nicely.
+source swap-config.vim
+
