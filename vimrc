@@ -16,6 +16,9 @@ Plug 'junegunn/fzf.vim'
 " git blame
 Plug 'tpope/vim-fugitive'
 
+" [+space for whitespace & [+q for quickfix nav.
+Plug 'tpope/vim-unimpaired'
+
 call plug#end()
 
 "init gruvbox colorscheme
