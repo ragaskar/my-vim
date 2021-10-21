@@ -19,6 +19,9 @@ Plug 'tpope/vim-fugitive'
 " [+space for whitespace & [+q for quickfix nav.
 Plug 'tpope/vim-unimpaired'
 
+" statusline plugin
+Plug 'vim-airline/vim-airline'
+
 call plug#end()
 
 "init gruvbox colorscheme
@@ -49,4 +52,3 @@ set belloff=all
 
 "handle vim swap files nicely.
 runtime swap-config.vim
-
