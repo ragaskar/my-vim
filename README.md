@@ -8,6 +8,7 @@ My trusty vim-config stopped working with the version of macvim I was able to ge
 ## Installing
 
 ```
-brew install fzf #yeah I assume you're on osx and using brew, otherwise install fzf somehow. :) 
+brew install fzf #yeah I assume you're on osx and using brew, otherwise install fzf somehow. :). This allows ctrl-p fuzzy finding
+brew install rg #yeah I assume you're on osx and using brew, otherwise install rg somehow. :). This allows :Rg find all in files
 ./install.sh
 ```
