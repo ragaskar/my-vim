@@ -8,3 +8,16 @@ if has("gui_running")
     set guifont=Consolas:h14:cANSI
   endif
 endif
+
+"Flip background color on insert (see
+"https://github.com/Peeja/insert_mode_background_color)
+augroup HighlightOnInsert
+  autocmd!
+  autocmd InsertEnter * execute "highlight Normal guibg=" . g:insert_mode_background_color
+  autocmd InsertLeave * execute "colorscheme " . g:colors_name
+augroup END
+
+" Change background color when inserting.
+if has("gui_running")
+  let g:insert_mode_background_color = "#18434E"
+end
