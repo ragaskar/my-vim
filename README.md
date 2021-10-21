@@ -7,6 +7,10 @@ My trusty vim-config stopped working with the version of macvim I was able to ge
 
 ## Installing
 
+symlink this repo to ~/.vim, symlink .vimrc to ~/.vim/vimrc, and symlink .gvimrc to ~/.vim/gvimrc.
+
+Then: 
+
 ```
 brew install fzf #yeah I assume you're on osx and using brew, otherwise install fzf somehow. :). This allows ctrl-p fuzzy finding
 brew install rg #yeah I assume you're on osx and using brew, otherwise install rg somehow. :). This allows :Rg find all in files
