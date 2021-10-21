@@ -48,5 +48,5 @@ map <leader>v :vsp<CR>
 set belloff=all
 
 "handle vim swap files nicely.
-source swap-config.vim
+runtime swap-config.vim
 
