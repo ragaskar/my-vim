@@ -46,6 +46,9 @@ let mapleader = ","
 " Auto-indent whole file
 nmap <leader>= gg=G``
 
+" Make Y consistent with D and C (ie, Y is yank til end of line)
+map Y           y$
+
 " Copy current file path to system pasteboard
 map <leader>c :let @* = expand("%:p")<CR>:echo "Copied: ".expand("%:p")<CR>
 map <leader>C :let @* = expand("%:p").":".line(".")<CR>:echo "Copied: ".expand("%:p").":".line(".")<CR>
