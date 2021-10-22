@@ -62,6 +62,10 @@ map <leader>g :Git blame<CR>
 " Split screen
 map <leader>v :vsp<CR>
 
+"indent/unindent visual mode selection with tab/shift+tab
+vmap <tab> >gv
+vmap <s-tab> <gv
+
 "turn off bell
 set belloff=all
 
