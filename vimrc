@@ -41,6 +41,8 @@ map \| :NERDTreeFind<CR>
 "map ctrl-p to fzf (fuzzy file finding)
 nmap <C-P> :FZF<CR>
 
+""""" KEYBINDINGS
+let mapleader = ","
 " Auto-indent whole file
 nmap <leader>= gg=G``
 
