@@ -22,6 +22,9 @@ Plug 'tpope/vim-unimpaired'
 " statusline plugin
 Plug 'vim-airline/vim-airline'
 
+"for commenting out in various langs
+Plug 'preservim/nerdcommenter'
+
 call plug#end()
 
 "init gruvbox colorscheme
@@ -40,6 +43,9 @@ nmap <C-P> :FZF<CR>
 
 " Auto-indent whole file
 nmap <leader>= gg=G``
+
+" Comment/uncomment lines
+map <leader>/   <plug>NERDCommenterToggle
 
 " Git blame
 map <leader>g :Git blame<CR>
