@@ -46,6 +46,10 @@ let mapleader = ","
 " Auto-indent whole file
 nmap <leader>= gg=G``
 
+" Copy current file path to system pasteboard
+map <leader>c :let @* = expand("%:p")<CR>:echo "Copied: ".expand("%:p")<CR>
+map <leader>C :let @* = expand("%:p").":".line(".")<CR>:echo "Copied: ".expand("%:p").":".line(".")<CR>
+
 " Comment/uncomment lines
 map <leader>/   <plug>NERDCommenterToggle
 
