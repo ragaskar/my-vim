@@ -71,3 +71,11 @@ set belloff=all
 
 "handle vim swap files nicely.
 runtime swap-config.vim
+
+"2 space tabs
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+"Show line numbers
+set number
