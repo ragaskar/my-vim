@@ -25,6 +25,9 @@ Plug 'vim-airline/vim-airline'
 "for commenting out in various langs
 Plug 'preservim/nerdcommenter'
 
+"removes trailing whitespace for modified lines.
+Plug 'axelf4/vim-strip-trailing-whitespace'
+
 call plug#end()
 
 "init gruvbox colorscheme
