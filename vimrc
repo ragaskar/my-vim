@@ -82,3 +82,7 @@ set expandtab
 
 "Show line numbers
 set number
+
+"set nowrap -- otherwise wrap means navigation on wrapped lines is annoying.
+"With nowrap we might choose to make lines shorter.
+set nowrap
