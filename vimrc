@@ -43,6 +43,9 @@ map \| :NERDTreeFind<CR>
 
 "map ctrl-p to fzf (fuzzy file finding)
 nmap <C-P> :FZF<CR>
+"hide a buffer when abandoned (i.e. don't prompt when fuzzy-finding from a tab
+"that has stray changes).
+set hidden
 
 """"" KEYBINDINGS
 let mapleader = ","
