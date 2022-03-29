@@ -86,3 +86,8 @@ set number
 "set nowrap -- otherwise wrap means navigation on wrapped lines is annoying.
 "With nowrap we might choose to make lines shorter.
 set nowrap
+
+"highlight search results.
+set hlsearch
+" Press Space to turn off highlighting and clear any message already displayed.
+:nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
