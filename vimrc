@@ -28,6 +28,9 @@ Plug 'preservim/nerdcommenter'
 "removes trailing whitespace for modified lines.
 Plug 'axelf4/vim-strip-trailing-whitespace'
 
+"Add CoC (code completion) -- requires additional configuration!
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
 
 "init gruvbox colorscheme
@@ -94,3 +97,6 @@ set nowrap
 set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+"pulls in CoC specific vim config.
+runtime coc.vim
