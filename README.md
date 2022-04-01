@@ -12,7 +12,22 @@ symlink this repo to ~/.vim, symlink .vimrc to ~/.vim/vimrc, and symlink .gvimrc
 Then: 
 
 ```
+brew install nvm #node version manager, node is a dependency for CoC code completion. There is some extra setup post install
+nvm install node #installs latest node.
 brew install fzf #yeah I assume you're on osx and using brew, otherwise install fzf somehow. :). This allows ctrl-p fuzzy finding
 brew install rg #yeah I assume you're on osx and using brew, otherwise install rg somehow. :). This allows :Rg find all in files
 ./install.sh
 ```
+
+## Ruby Code Completion/Parsing
+For each project, in the root dir, you'll want to:
+
+```
+gem install solargraph
+solargraph config
+echo ".solargraph.yml" >> .gitignore
+```
+
+Solargraph should map your project when opened with vim. (Hot tip! `gd` will jump to a class definition. "Go to Definition" is a good mnemonic).
+
+

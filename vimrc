@@ -33,6 +33,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
+" install/load coc-solargraph (Ruby code completion for CoC)
+let g:coc_global_extensions = ['coc-solargraph']
+
 "init gruvbox colorscheme
 autocmd vimenter * ++nested colorscheme gruvbox
 
