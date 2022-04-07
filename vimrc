@@ -22,6 +22,9 @@ Plug 'tpope/vim-unimpaired'
 " statusline plugin
 Plug 'vim-airline/vim-airline'
 
+"show git changes in gutter.
+Plug 'airblade/vim-gitgutter'
+
 "for commenting out in various langs
 Plug 'preservim/nerdcommenter'
 
