@@ -106,3 +106,6 @@ set hlsearch
 
 "pulls in CoC specific vim config.
 runtime coc.vim
+
+"Defaults coc to open stuff in a new tab (or existing tab if already open)
+call coc#config('coc.preferences.jumpCommand', 'tab drop')
