@@ -9,10 +9,23 @@ My trusty vim-config stopped working with the version of macvim I was able to ge
 
 symlink this repo to ~/.vim, symlink .vimrc to ~/.vim/vimrc, and symlink .gvimrc to ~/.vim/gvimrc.
 
+Assuming you installed this repo into `~/workspace/my-vim` 
+
+```
+ln -s ~/workspace/my-vim ~/.vim
+ln -s ~/workspace/my-vim/vimrc ~/.vimrc
+ln -s ~/workspace/my-vim/gvimrc ~/.gvimrc
+```
+
 Then: 
 
 ```
 brew install nvm #node version manager, node is a dependency for CoC code completion. There is some extra setup post install
+```
+
+Stop here and make sure your shell is setup to run nvm
+
+```
 nvm install node #installs latest node.
 brew install fzf #yeah I assume you're on osx and using brew, otherwise install fzf somehow. :). This allows ctrl-p fuzzy finding
 brew install rg #yeah I assume you're on osx and using brew, otherwise install rg somehow. :). This allows :Rg find all in files
